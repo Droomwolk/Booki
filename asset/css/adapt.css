@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .figureContainer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .figureContainerBloc1 {
+    flex: 1;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .figureContainerBloc2 {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
+
+.figureContainer2BlocContent {
+  flex-direction: column;
+}
+
+.figureContainer2Bloc {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footerContainer {
+}
+
+.footerList3 {
+  margin-right: 0px;
+}
