@@ -21,11 +21,28 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  /* background-color: blueviolet; */
+  /* margin-top: 20px; */
 }
 
 .headerLogo {
-  width: 100px;
+  width: 10%;
+}
+
+.navigationList {
+  border: 1px none crimson;
+}
+
+.navigationList1 {
+  border: 1px none black;
+  padding-top: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.navigationList1:hover {
+  /* border: 1px solid black; */
+  border-top: 1px solid blue;
 }
 
 .navigationList {
@@ -69,25 +86,39 @@ main {
 /* FILTRE */
 .filtreContainer {
   margin-top: 30px;
+  /* background-color: darkorchid; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
-.filtre {
+.filtreBloc {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 700px;
+  justify-content: space-between;
+  width: 65%;
+  /* background-color: hotpink; */
 }
 
 .filtreTitle {
   font-weight: bold;
 }
 
+.filtre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  /* background-color: darkgreen; */
+}
+
 .filtreBorder {
   display: flex;
   align-items: center;
-  border: 1px solid #f2f2f2;
-  padding-right: 10px;
-  border-radius: 20px 20px 20px 20px;
+  border: 2px solid #f2f2f2;
+  padding-right: 20px;
+  border-radius: 25px 25px 25px 25px;
+  /* padding: 2px; */
 }
 
 .filtreBorder:hover {
@@ -101,7 +132,7 @@ main {
 .fa-dog {
   border: 1px none black;
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
   margin-right: 10px;
   background-color: #deebff;
   color: #0065fc;
@@ -204,11 +235,11 @@ main {
 .figureContainerBloc2Header {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 80%;
 }
 
 .bloc2 {
-  width: 300px;
+  width: 80%;
   border: 1px none black;
   border-radius: 15px 15px 15px 15px;
   display: flex;
@@ -265,6 +296,8 @@ main {
 
 .figureContainer2Bloc {
   display: flex;
+  /* flex: 1; */
+  /* background-color: blueviolet; */
 }
 
 .figure2Bloc1 {
