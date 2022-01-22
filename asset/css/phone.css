@@ -26,6 +26,7 @@
 
   .headerNavigation {
     /* background-color: darkgreen; */
+    width: auto;
   }
 
   .navigationList {
@@ -34,7 +35,23 @@
     /* background-color: orangered; */
   }
 
+  .navigationList1 {
+    padding-bottom: 10px;
+    padding-left: 60px;
+  }
+
+  .navigationList2 {
+    padding-bottom: 10px;
+    padding-right: 60px;
+  }
+
   .navigationList1:hover {
+    /* border: 1px solid black; */
+    border-top: 1px none blue;
+    border-bottom: 1px solid blue;
+  }
+
+  .navigationList2:hover {
     /* border: 1px solid black; */
     border-top: 1px none blue;
     border-bottom: 1px solid blue;
@@ -97,6 +114,14 @@
     /* background-color: mediumblue; */
   }
 
+  .figureContainerBloc1 {
+    background-color: white;
+  }
+
+  .figureContainerBloc1 h2 {
+    padding-top: 40px;
+  }
+
   .figureContainerBloc2 {
     /* background-color: mediumspringgreen; */
     width: 100%;
@@ -149,8 +174,8 @@
 
     /* padding-left: 30px; */
     /* display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; */
+    /* justify-content: center;
     align-items: center; */
   }
 
@@ -160,14 +185,23 @@
   }
 
   .figureContainer2BlocContent {
-    justify-content: none;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 97%;
     /* background-color: palegreen; */
   }
 
   .figureContainer2Bloc {
     /* background-color: red; */
+    margin-right: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .figureContainer2Bloc1 {
+    /* background-color: red; */
+    margin-left: 0;
     flex-direction: column;
     width: 100%;
   }
@@ -207,17 +241,19 @@
   .footerContainer {
     flex-direction: column;
     width: auto;
-    height: 60%;
+    height: 50%;
     padding-bottom: 20px;
-    background-color: tomato;
+    /* background-color: tomato; */
   }
 
   .footerList2 {
-    margin: 40px 0 40px 0;
+    /* margin: 10px 0 10px 0; */
     justify-content: none;
   }
 
   .footerList3 {
     padding-bottom: 30px;
+    width: 40%;
+    /* background-color: cornflowerblue; */
   }
 }

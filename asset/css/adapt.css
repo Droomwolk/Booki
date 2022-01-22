@@ -47,6 +47,13 @@
   .figureContainer2Bloc {
     justify-content: center;
     margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .figureContainer2Bloc1 {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 0;
   }
 
   .bloc2 {
