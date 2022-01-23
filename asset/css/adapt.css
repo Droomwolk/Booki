@@ -5,7 +5,7 @@
   }
 
   .filtreContainer {
-    background-color: gold;
+    /* background-color: gold; */
     width: 100%;
   }
 
@@ -29,19 +29,31 @@
     margin-top: 30px;
     flex-wrap: wrap;
     width: auto;
-    background-color: darkred;
+    /* background-color: darkred; */
+  }
+
+  .figureContainerBloc2Header {
+    width: 90%;
   }
 
   .figureContainer2 {
     /* background-color: darkgreen; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100%; */
+    /* padding: 0 40px 0 40px; */
   }
 
   .figureContainer2 h2 {
-    margin-left: 40px;
+    /* margin-left: 40px; */
   }
 
   .figureContainer2BlocContent {
     flex-direction: column;
+    width: auto;
+    /* background-color: darkblue; */
   }
 
   .figureContainer2Bloc {
@@ -64,6 +76,11 @@
 
   .footerContainer {
     width: auto;
+  }
+
+  .footerList2 {
+    margin: 10px 0 10px 0;
+    justify-content: none;
   }
 
   .footerList3 {

@@ -26,7 +26,7 @@
 
   .headerNavigation {
     /* background-color: darkgreen; */
-    width: auto;
+    width: 100%;
   }
 
   .navigationList {
@@ -126,6 +126,7 @@
     /* background-color: mediumspringgreen; */
     width: 100%;
     padding: 40px 0 20px 0;
+    border-radius: 0px 0px 0px 0px;
   }
 
   .figureContainerBloc2 h2 {
@@ -168,9 +169,11 @@
   /* FIGURE CONTAINER 2 */
 
   .figureContainer2 {
-    background-color: orange;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    /* background-color: orange; */
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 
     /* padding-left: 30px; */
     /* display: flex;
@@ -188,7 +191,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 97%;
+    width: 100%;
     /* background-color: palegreen; */
   }
 
@@ -224,7 +227,7 @@
     background-color: white;
     padding: 5px;
     margin: 15px;
-    box-shadow: 10px 10px 10px #7775756e;
+    box-shadow: 5px 5px 5px #f2f2f2;
   }
 
   .image2Bloc1,
