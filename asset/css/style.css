@@ -108,6 +108,17 @@ main {
   padding: 15px;
 }
 
+.fa-search {
+  border: 1px solid #f2f2f2;
+  background-color: #0065fc;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  border-left: none;
+  padding: 15px;
+  margin-left: -10px;
+  display: none;
+}
+
 /* FILTRE */
 .filtreContainer {
   margin-top: 30px;

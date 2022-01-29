@@ -80,7 +80,7 @@
 
   .footerList2 {
     margin: 10px 0 10px 0;
-    justify-content: none;
+    /* justify-content: none; */
   }
 
   .footerList3 {
