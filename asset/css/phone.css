@@ -81,6 +81,7 @@
 
   .fa-search {
     display: unset;
+    visibility: unset;
   }
 
   /* FILTRE */

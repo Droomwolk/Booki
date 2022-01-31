@@ -4,6 +4,10 @@
     overflow-x: hidden;
   }
 
+  .fa-search {
+    display: none;
+  }
+
   .filtreContainer {
     /* background-color: gold; */
     width: 100%;
