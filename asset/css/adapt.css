@@ -29,6 +29,14 @@
     width: auto;
   }
 
+  .bloc1 {
+    width: 40%;
+  }
+
+  .imageBloc1 {
+    width: 100%;
+  }
+
   .figureContainerBloc2 {
     margin-top: 30px;
     flex-wrap: wrap;

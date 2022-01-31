@@ -1,0 +1,32 @@
+@media screen and (min-width: 993px) and (max-width: 1429px) {
+  .figureBloc1 {
+    /* flex-wrap: initial; */
+  }
+
+  .bloc1 {
+    width: 40%;
+    /* background-color: lawngreen; */
+  }
+
+  .imageBloc1 {
+    width: 100%;
+  }
+
+  .figureContainerBloc2Header h2 {
+    /* margin-top: -10px; */
+  }
+
+  .fa-chart-line {
+    /* margin-top: -20px; */
+  }
+
+  .bloc2 {
+    margin-top: 0;
+    /* margin-bottom: 0; */
+    height: 200px;
+  }
+
+  .imageBloc2 {
+    height: 200px;
+  }
+}
